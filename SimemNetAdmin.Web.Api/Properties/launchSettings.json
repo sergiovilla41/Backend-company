@@ -1,0 +1,91 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:8835",
+      "sslPort": 44382
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5230",
+      "environmentVariables": {
+        "DOTNET_SYSTEM_GLOBALIZATION_INVARIANT": "0",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AzureWebJobsStorage": "",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "AzureStorage": "AzureStorage",
+        "StorageContainer": "StorageContainerSimem",
+        "SimemConnection": "SimemConnection",
+        "UrlApim": "UrlApim",
+        "OcpApimSubscriptionKey": "OcpApimSubscriptionKey",
+        "AzureKeyVaultUri": "https://kvsimemprb02.vault.azure.net/",
+        "clientId": "ZQA5ADQANAA2AGIANwAyAC0AOAA3AGMAYgAtADQANQAyADEALQA4ADkAYgBmAC0AZgAwAGYANQBhADAAYwA2AGEAZQAzADUA",
+        "clientSecret": "VgBHAGgAOABRAH4AVwBQAH4AQgBSAFQAUABqADgARQBNAHIAWABuAG0AZABIAHoAZQBiAEkAVgBCAEUAagBPAEMAVgBqAFgASQBjAFAAUgA=",
+        "tenantId": "YwA5ADgAMABlADQAMQAwAC0AMABiADUAYwAtADQAOABiAGMALQBiAGQAMQBhAC0AOABiADkAMQBjAGEAYgBjADgANABiAGMA",
+        "Pipeline": "false",
+        "JwtKey": "JwtKey",
+        "pipelineToExecuteName": "PL_Ejecucion_Maestro",
+        "synapseWorkspaceName": "synsimem04"
+
+      }
+
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7100;http://localhost:5230",
+      "environmentVariables": {
+        "DOTNET_SYSTEM_GLOBALIZATION_INVARIANT": "0",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AzureWebJobsStorage": "",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "AzureStorage": "AzureStorage",
+        "StorageContainer": "StorageContainerSimem",
+        "SimemConnection": "SimemConnection",
+        "UrlApim": "UrlApim",
+        "OcpApimSubscriptionKey": "OcpApimSubscriptionKey",
+        "AzureKeyVaultUri": "https://kvsimemprb02.vault.azure.net/",
+        "clientId": "ZQA5ADQANAA2AGIANwAyAC0AOAA3AGMAYgAtADQANQAyADEALQA4ADkAYgBmAC0AZgAwAGYANQBhADAAYwA2AGEAZQAzADUA",
+        "clientSecret": "VgBHAGgAOABRAH4AVwBQAH4AQgBSAFQAUABqADgARQBNAHIAWABuAG0AZABIAHoAZQBiAEkAVgBCAEUAagBPAEMAVgBqAFgASQBjAFAAUgA=",
+        "tenantId": "YwA5ADgAMABlADQAMQAwAC0AMABiADUAYwAtADQAOABiAGMALQBiAGQAMQBhAC0AOABiADkAMQBjAGEAYgBjADgANABiAGMA",
+        "Pipeline": "false",
+        "JwtKey": "JwtKey",
+        "pipelineToExecuteName": "PL_Ejecucion_Maestro",
+        "synapseWorkspaceName": "synsimem04"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "DOTNET_SYSTEM_GLOBALIZATION_INVARIANT": "0",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AzureWebJobsStorage": "",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "AzureStorage": "AzureStorage",
+        "StorageContainer": "StorageContainerSimem",
+        "SimemConnection": "SimemConnection",
+        "UrlApim": "UrlApim",
+        "OcpApimSubscriptionKey": "OcpApimSubscriptionKey",
+        "AzureKeyVaultUri": "https://kvsimemprb02.vault.azure.net/",
+        "clientId": "ZQA5ADQANAA2AGIANwAyAC0AOAA3AGMAYgAtADQANQAyADEALQA4ADkAYgBmAC0AZgAwAGYANQBhADAAYwA2AGEAZQAzADUA",
+        "clientSecret": "VgBHAGgAOABRAH4AVwBQAH4AQgBSAFQAUABqADgARQBNAHIAWABuAG0AZABIAHoAZQBiAEkAVgBCAEUAagBPAEMAVgBqAFgASQBjAFAAUgA=",
+        "tenantId": "YwA5ADgAMABlADQAMQAwAC0AMABiADUAYwAtADQAOABiAGMALQBiAGQAMQBhAC0AOABiADkAMQBjAGEAYgBjADgANABiAGMA",
+        "Pipeline": "false",
+        "JwtKey": "JwtKey",
+        "pipelineToExecuteName": "PL_Ejecucion_Maestro",
+        "synapseWorkspaceName": "synsimem04"
+      }
+    }
+  }
+}

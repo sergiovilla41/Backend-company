@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimemNetAdmin.Domain\SimemNetAdmin.Domain.csproj" />
+    <ProjectReference Include="..\SimemNetAdmin.Infra.Data\SimemNetAdmin.Infra.Data.csproj" />
+    <ProjectReference Include="..\SimemNetAdmin.Transversal\SimemNetAdmin.Transversal.csproj" />
+  </ItemGroup>
+
+</Project>

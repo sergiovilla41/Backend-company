@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Analytics.Synapse.Artifacts" Version="1.0.0-preview.19" />
+    <PackageReference Include="Azure.Identity" Version="1.10.4" />
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimemNetAdmin.Application\SimemNetAdmin.Application.csproj" />
+    <ProjectReference Include="..\SimemNetAdmin.Infra.IoC\SimemNetAdmin.Infra.IoC.csproj" />
+    <ProjectReference Include="..\SimemNetAdmin.Transversal\SimemNetAdmin.Transversal.csproj" />
+  </ItemGroup>
+
+</Project>
